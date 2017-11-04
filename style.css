@@ -1,0 +1,87 @@
+body {
+	background: #414449;
+}
+
+.game {
+	text-align: center;
+	position: relative;
+}
+
+td {
+	height: 100px;
+	width: 100px;
+	text-align: center;
+	vertical-align: middle; /* !!!!!! */
+	font-size: 70px;
+	cursor: pointer;
+	border-radius: 5px;
+	background: white; 
+}
+
+table {
+	margin: 50px auto;
+}
+
+.endgame {
+	display: none;
+	background-color: rgba(0, 149, 255, 0.8);
+	margin: 0 auto;
+	border-radius: 5px;
+	font-size: 2em;
+	text-align: center;
+	color: white;	
+}
+
+.endgame p{
+	margin: 0;
+}
+
+.rpl-btn {
+	font-size: 20px;
+	border-radius: 5px;
+	background-color: #27ae60;
+	border-style: none;
+	cursor: pointer;
+}
+
+.scores ul li {
+	display: inline;
+	font-size: 35px;
+	color: #fff;
+	margin-right: 40px;
+	width: 40px;
+
+}
+
+.scores {
+	margin: 0 auto;
+}
+
+.score {
+	font-size: 30px;
+	color: black;
+	border: 1px solid black;
+	
+}
+
+.controls {
+	font-size: 30px;
+	height: 40px;
+	width: 70px;
+	border-radius: 0;
+	color: white;
+	background: #3d3f42;
+}
+
+.new-game:hover {
+	background-color: #1a65dd;
+}
+
+.new-game {
+	font-size: 25px;
+	background-color: #4286f4;
+	border-style: none;
+	margin-top: -20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
